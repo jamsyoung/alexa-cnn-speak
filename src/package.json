@@ -1,0 +1,11 @@
+{
+  "name": "cnn-speak-lambda",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "make:package": "zip -r ../lambda.zip *"
+  },
+  "dependencies": {
+    "alexa-sdk": "1.0.15"
+  }
+}
